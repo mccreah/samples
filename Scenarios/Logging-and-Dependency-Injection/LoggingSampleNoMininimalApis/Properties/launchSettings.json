@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "LoggingSampleNoMininimalApis": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7010;http://localhost:5010"
+    }
+  }
+}
