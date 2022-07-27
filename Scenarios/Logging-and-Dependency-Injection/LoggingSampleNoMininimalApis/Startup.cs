@@ -26,6 +26,7 @@ namespace LoggingSampleNoMinimalApis
       services.AddServiceModelMetadata();
       services.AddSingleton<IServiceBehavior, UseRequestHeadersForMetadataAddressBehavior>();
       services.AddSingleton<IUtilityService, UtilityService>();
+      services.AddSingleton<Service3>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
